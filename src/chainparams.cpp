@@ -115,7 +115,7 @@ public:
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1026; // 95% of 1080 is 1026
         consensus.nMinerConfirmationWindow = 1080; // nPowTargetTimespan / nPowTargetSpacing
-        consensus.nLastPOWBlock = 68000;
+        consensus.nLastPOWBlock = 99999999;
         // Deployment of SegWit (BIP141 and BIP143)
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1530428034; // 01/07/2018
@@ -181,7 +181,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xe9f1cde73194c816312e7e4c75131d5a776ece5344c61b2c354221a1bf421d4c"));
 
         ////////////////////////////////////////////////////////////////////////////////////////////////
-        vSeeds.push_back(CDNSSeedData("wormv2.mealworms.biz", "wormv2.mealworms.biz"));       // WORM seeder (IPv6)
+        vSeeds.push_back(CDNSSeedData("wormv2.iGotSpots.placeholder", "wormv2.iGotSpots.placeholder"));       // WORM seeder (IPv6)
 		vSeeds.push_back(CDNSSeedData("2.84.169.232", "2.84.169.232"));
 		vSeeds.push_back(CDNSSeedData("36.71.240.5", "36.71.240.5"));
 		vSeeds.push_back(CDNSSeedData("45.63.119.167", "45.63.119.167"));
@@ -272,7 +272,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 577836800;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 2577836900; // Never / undefined
-        consensus.nLastPOWBlock = 10000;
+        consensus.nLastPOWBlock = 99999999;
 
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
@@ -327,7 +327,7 @@ public:
 
         //vFixedSeeds.clear();
         //vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("Seed1", "wormv2.mealworms.biz"));       // WORM seeder
+        vSeeds.push_back(CDNSSeedData("Seed1", "wormv2.iGotSpots.placeholder"));       // WORM seeder
 		//vSeeds.push_back(CDNSSeedData("65.30.166.214", "65.30.166.214"));
         //vSeeds.push_back(CDNSSeedData("172.68.174.87", "172.68.174.87"));
 
@@ -496,7 +496,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 999999999999ULL;
-        consensus.nLastPOWBlock = 10000;
+        consensus.nLastPOWBlock = 99999999;
 
         nSwitchPhi2Block = 10000;
         //nFirstSCBlock = 300000;

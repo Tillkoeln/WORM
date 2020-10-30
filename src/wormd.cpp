@@ -29,7 +29,7 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called WORM (http://www.mealworms.biz),
+ * This is the developer documentation of the reference client for an experimental new digital currency called WORM (http://www.iGotSpots.placeholder),
  * which enables instant payments to anyone, anywhere in the world. WORM uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *

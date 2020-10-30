@@ -159,9 +159,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle* n
     enableWallet = WalletModel::isWalletEnabled();
 #endif // ENABLE_WALLET
     if (enableWallet) {
-        windowTitle += tr("Wallet via Mealworms.biz");
+        windowTitle += tr("Wallet via iGotSpots.placeholder");
     } else {
-        windowTitle += tr("Node via Mealworms.biz");
+        windowTitle += tr("Node via iGotSpots.placeholder");
     }
     QString userWindowTitle = QString::fromStdString(GetArg("-windowtitle", ""));
     if (!userWindowTitle.isEmpty()) windowTitle += " - " + userWindowTitle;
@@ -327,7 +327,7 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle* n
         pushButtonHelp = new QPushButton(frameSocMedia);
         pushButtonHelp->setToolTip(tr("Go to")+" Information Hub");
         connect(pushButtonHelp, &QPushButton::clicked,
-                this, [](){QDesktopServices::openUrl(QUrl("https://mealworms.biz/"));});
+                this, [](){QDesktopServices::openUrl(QUrl("https://iGotSpots.placeholder/"));});
         pushButtonHelp->setIcon(QIcon(":/icons/res/icons/hub.png").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
 		
         auto buttons = frameSocMedia->findChildren<QPushButton* >();

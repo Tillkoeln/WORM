@@ -127,13 +127,13 @@ Eula::Eula(QWidget* parent) : QDialog(parent),
     eulaInfo += tr("<p style=\"line-height:130\"><br><b>2.6	Limitations</b></p>");
     eulaInfo += tr("<p style=\"line-height:30\"></p>");
     eulaInfo += tr("<p style=\"line-height:130\">To the extent that the Software includes Wormcore Wormgate software, (i) you may customize the \
-                   installer for such software in accordance with the restrictions found at <a href=\"https://mealworms.biz\">https://mealworms.biz</a> \
+                   installer for such software in accordance with the restrictions found at <a href=\"https://iGotSpots.placeholder\">https://iGotSpots.placeholder</a> \
                    (e.g., installation of additional plug-in and help files); however, you may not otherwise alter or modify the installer program \
                    or create a new installer for any of such software, (ii) such software is licensed and distributed by Wormcore, and (iii) you are \
                    not authorized to use any plug-in or enhancement that permits you to save modifications to a any format file with such software; \
                    however, such use is authorized with Wormcore, Wormcore Wormgate, and other current and future Wormcore products. For information on \
                    how to distribute Wormgate please refer to the sections entitled \"How to Distribute Wormgate\" at \
-                   <a href=\"https://mealworms.biz\">https://mealworms.biz</a>.</p>");
+                   <a href=\"https://iGotSpots.placeholder\">https://iGotSpots.placeholder</a>.</p>");
     eulaInfo += tr("<p style=\"line-height:30\"></p>");
     eulaInfo += tr("<p style=\"line-height:130\"><br><b>3.	Intellectual Property Rights</b></p>");
     eulaInfo += tr("<p style=\"line-height:30\"></p>");

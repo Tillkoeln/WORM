@@ -1,6 +1,6 @@
 #FROM debian:stretch
 FROM ubuntu:18.04
-LABEL maintainer="The Wormcore Developers <sales@mealworms.biz>"
+LABEL maintainer="The Wormcore Developers <sales@iGotSpots.placeholder>"
 LABEL description="Dockerised Wormcore, built from Travis"
 
 RUN apt-get update && apt-get install -y software-properties-common unzip

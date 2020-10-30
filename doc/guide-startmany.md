@@ -137,7 +137,7 @@ I usually confirm that remote is on the correct block by issuing:
 
 ```wormd getinfo```
 
-And compare with the official explorer at http://explorer.mealworms.biz <or> https://chainz.cryptoid.info/worm/
+And compare with the official explorer at http://explorer.iGotSpots.placeholder <or> https://chainz.cryptoid.info/worm/
 
 ### Local
 

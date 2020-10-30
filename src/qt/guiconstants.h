@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "WORM"
-#define QAPP_ORG_DOMAIN "mealworms.biz"
+#define QAPP_ORG_DOMAIN "iGotSpots.placeholder"
 #define QAPP_APP_NAME_DEFAULT "WORM-Qt"
 #define QAPP_APP_NAME_TESTNET "WORM-Qt-testnet"
 

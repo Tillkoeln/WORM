@@ -46,7 +46,7 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active WORM
 Core development team as well as posting on the
-[WORM](https://mealworms.biz).
+[WORM](https://iGotSpots.placeholder).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.

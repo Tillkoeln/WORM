@@ -1923,6 +1923,7 @@ CAmount GetProofOfWorkReward(int64_t nFees, int nHeight)
 {
     CAmount nSubsidy = 1 * COIN;
     if (nHeight == 1) { nSubsidy = 1000000 * COIN; }  //Merge NEON and WORM
+	if (nHeight > 465000) { nSubsidy = 1000 * COIN; }  //Fix Stuck Blockchain; use 'generate' to mine in-wallet
     return nSubsidy + nFees;
 }
 
